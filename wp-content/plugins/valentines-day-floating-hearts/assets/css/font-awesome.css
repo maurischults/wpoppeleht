@@ -21,21 +21,21 @@
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
+  font-size: 3em;
+  line-height: 1em;
   vertical-align: -15%;
 }
 .fa-2x {
   font-size: 2em;
 }
 .fa-3x {
-  font-size: 3em;
+  font-size: 5em;
 }
 .fa-4x {
-  font-size: 4em;
+  font-size: 7em;
 }
 .fa-5x {
-  font-size: 5em;
+  font-size: 8em;
 }
 .fa-fw {
   width: 1.28571429em;
@@ -71,7 +71,7 @@
   float: right;
 }
 .fa.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 2em;
 }
 .fa.fa-pull-right {
   margin-left: .3em;
@@ -103,8 +103,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
+    -webkit-transform: rotate(250deg);
+    transform: rotate(250deg);
   }
 }
 @keyframes fa-spin {
