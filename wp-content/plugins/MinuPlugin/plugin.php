@@ -2,7 +2,7 @@
 /*
 Plugin Name: MinuPlugin
 Plugin URI:  https://maurischults.ikt.khk.ee/
-Description: lisa pilt lehe loppu
+Description: lisab lehe ules tervitusteksti
 Version:     1.0
 Author:      Mauri Schults
 Author URI:  http://link to your website
@@ -28,7 +28,7 @@ function get_user_or_websitename()
 
 function tb_head()
 {
-    echo '<h3 class="tb">Welcome ' . get_user_or_websitename() .  '</h3>';
+    echo '<h3 class="tb">Tere tulemast ' . get_user_or_websitename() .  '!</h3>';
 }
 
 //Add CSS to the top bar
@@ -38,7 +38,7 @@ function tb_css()
 {
     echo '
         <style>
-        h3.tb {color: #fff; margin: 0; padding: 30px; text-align: center; background: orange}
+        h3.tb {color: #fff; margin: 0; padding: 30px; text-align: center; background: #b3b3ff}
         </style>
     ';
 }
